@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
 <head>
 	<meta charset="utf-8">
 
@@ -29,144 +30,170 @@
 	<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
 
 	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="css/loader.css"/>
-	<link rel="stylesheet" type="text/css" href="css/framework.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style2.css"/>
-   <!-- Colors -->
+	<link rel="stylesheet" type="text/css" href="css/loader.css" />
+	<link rel="stylesheet" type="text/css" href="css/framework.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+	<!-- Colors -->
 	<link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen">
-	
+
 	<!-- Javascript -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/jquery.js"></script>
 </head>
+
 <body>
 	<section id="hero">
-		<ul id="scene" class="scene"
-			data-friction-x="0.1"
-			data-friction-y="0.1"
-			data-scalar-x="25"
-			data-scalar-y="15"
-			>
+		<ul id="scene" class="scene" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15">
 			<li class="layer" data-depth="0.00"></li>
 
 			<!-- BG -->
-			<li class="layer" data-depth="0.10" ><div class="background" data-0="transform: translate3d(0px, 0px, 0px);" data-top-bottom="transform: translate3d(0px, 300%, 0px);"></div></li>
-			<li class="layer" data-depth="0.15"><div class="triangles"></div></li>
-			<li class="layer" data-depth="0.25"><div class="sphere" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/sphere.png" alt="sphere"></div></li>
-			
+			<li class="layer" data-depth="0.10">
+				<div class="background" data-0="transform: translate3d(0px, 0px, 0px);" data-top-bottom="transform: translate3d(0px, 300%, 0px);"></div>
+			</li>
+			<li class="layer" data-depth="0.15">
+				<div class="triangles"></div>
+			</li>
+			<li class="layer" data-depth="0.25">
+				<div class="sphere" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/sphere.png" alt="sphere"></div>
+			</li>
+
 			<!-- Hero -->
-			<li class="layer" data-depth="0.20"><div  id='test' class="title" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img class="has-retina" src="images/logo.png" alt="Opia"><span class="line"></span></div></li>
+			<li class="layer" data-depth="0.20">
+				<div id='test' class="title" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img class="has-retina" src="images/logo.png"
+					 alt="Opia"><span class="line"></span></div>
+			</li>
 			<li class="layer" data-depth="0.30">
 				<div class="hero-content" data-0="opacity: 1;" data-top-bottom="opacity: 0;">
 					<h1></h1>
-					
-                </div>
-                
+
+				</div>
+
 			</li>
 
 			<!-- Flakes -->
 			<li class="layer" data-depth="0.40">
-				<div class="depth-1 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes1.png" alt="flake"></div>
-				<div class="depth-1 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes2.png" alt="flake"></div>
-				<div class="depth-1 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes3.png" alt="flake"></div>
-				<div class="depth-1 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes4.png" alt="flake"></div>
+				<div class="depth-1 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes1.png"
+					 alt="flake"></div>
+				<div class="depth-1 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes2.png"
+					 alt="flake"></div>
+				<div class="depth-1 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes3.png"
+					 alt="flake"></div>
+				<div class="depth-1 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes4.png"
+					 alt="flake"></div>
 			</li>
 			<li class="layer" data-depth="0.50">
-				<div class="depth-2 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes1.png" alt="flake"></div>
-				<div class="depth-2 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes2.png" alt="flake"></div>
+				<div class="depth-2 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes1.png"
+					 alt="flake"></div>
+				<div class="depth-2 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes2.png"
+					 alt="flake"></div>
 			</li>
 			<li class="layer" data-depth="0.60">
-				<div class="depth-3 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes1.png" alt="flake"></div>
-				<div class="depth-3 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes2.png" alt="flake"></div>
-				<div class="depth-3 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes3.png" alt="flake"></div>
-				<div class="depth-3 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes4.png" alt="flake"></div>
+				<div class="depth-3 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes1.png"
+					 alt="flake"></div>
+				<div class="depth-3 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes2.png"
+					 alt="flake"></div>
+				<div class="depth-3 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes3.png"
+					 alt="flake"></div>
+				<div class="depth-3 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes4.png"
+					 alt="flake"></div>
 			</li>
-			<li class="layer" data-depth="0.80"><div class="depth-4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth4/flakes.png" alt="flake"></div></li>
-			<li class="layer" data-depth="1.00"><div class="depth-5" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth5/flakes.png" alt="flake"></div></li>
+			<li class="layer" data-depth="0.80">
+				<div class="depth-4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth4/flakes.png"
+					 alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="1.00">
+				<div class="depth-5" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth5/flakes.png"
+					 alt="flake"></div>
+			</li>
 		</ul>
 		<a id="action" href="#intro"></a>
 	</section>
 
 	<section id="intro" class="container center padded">
 
-		
-			<div class="row">
-				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-					
-					<span class="line"></span>
-					<h2  style="	font-family:  Montserrat, arial, sans-serif;">Bienvenue
-					</h2>
-                    <p  style="	font-family:  Montserrat, arial, sans-serif;">180° c’est un restaurant branché et chaleureux au coeur de sousse.</p>
-                    <span class="line"></span>
-                    <br>
-                    <form method="get" action="reserver.html">
-                    <button class="bouton6" style="	font-family:  Montserrat, arial, sans-serif;"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4MCA0ODA7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzM5LjkwNCwxNjEuNzc2bC01LjEzNi0xNi45MDRjLTYuNTI0LTE5LjIwMi0yNy4zNzktMjkuNDc5LTQ2LjU4MS0yMi45NTVjLTEwLjgwMiwzLjY3LTE5LjI4NSwxMi4xNTMtMjIuOTU1LDIyLjk1NSAgICBsLTUuMTM2LDE2LjkwNGMtNC4zMjIsMTQuMjU2LTUuMjI5LDI5LjMyOS0yLjY0OCw0NGMyLjM1NCwxMi4zNTIsMTAuMTk2LDIyLjk2NCwyMS4zMTIsMjguODRMMjczLjAwOCwzNjMuMiAgICBjLTAuNzcsNy4xNzcsMS41NTgsMTQuMzQyLDYuNCwxOS42OTZjMTAuNDEzLDExLjM5LDI4LjA4OSwxMi4xODIsMzkuNDc5LDEuNzY5YzAuNjE2LTAuNTYzLDEuMjA2LTEuMTUzLDEuNzY5LTEuNzY5ICAgIGM0LjczNC01LjIwMiw3LjA1OC0xMi4xNTcsNi40LTE5LjE2TDMyMS4yNzIsMjM0LjZjMTEuMTAxLTUuODc5LDE4LjkzLTE2LjQ4NCwyMS4yOC0yOC44MjQgICAgQzM0NS4xMzMsMTkxLjEwNSwzNDQuMjI2LDE3Ni4wMzIsMzM5LjkwNCwxNjEuNzc2eiBNMzI2Ljc5MiwyMDIuOTkyYy0xLjczMiw4Ljg3NC04LjA1NiwxNi4xNTUtMTYuNiwxOS4xMTIgICAgYy0zLjI0MywxLjIxOS01LjMzMiw0LjM4Ny01LjE3Niw3Ljg0OEwzMTEuMDk2LDM2NWMwLjI4LDIuNjQ5LTAuNTk0LDUuMjktMi40LDcuMjQ4Yy00LjgxNyw0Ljc2OS0xMi41NzUsNC43NjktMTcuMzkyLDAgICAgYy0xLjg5Ni0yLjExNi0yLjc1Ny00Ljk2NC0yLjM1Mi03Ljc3Nmw2LjAzMi0xMzQuNTJjMC4xNTYtMy40NjEtMS45MzMtNi42MjktNS4xNzYtNy44NDhjLTguNTQ0LTIuOTU3LTE0Ljg2OC0xMC4yMzgtMTYuNi0xOS4xMTIgICAgYy0yLjE0LTEyLjE4LTEuMzg2LTI0LjY5MywyLjItMzYuNTI4bDUuMTM2LTE2LjkxMmMzLjk3NC0xMC43NDUsMTUuOTA2LTE2LjIzNCwyNi42NTItMTIuMjZjNS42ODEsMi4xMDEsMTAuMTU5LDYuNTgsMTIuMjYsMTIuMjYgICAgbDUuMTM2LDE2LjkxMkMzMjguMTc0LDE3OC4zLDMyOC45MjgsMTkwLjgxMiwzMjYuNzkyLDIwMi45OTJ6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjE2LDEyMGMtNC40MTgsMC04LDMuNTgyLTgsOHY2OC42ODhsLTIxLjY1NiwyMS42NTZjLTEuNjAyLDEuNTk2LTIuNDU0LDMuNzk3LTIuMzQ0LDYuMDU2bDcsMTQwICAgIGMwLjE2NywzLjAxOS0wLjkyOSw1Ljk3Mi0zLjAyNCw4LjE1MmMtNC4zNzksNC40MTgtMTEuNTExLDQuNDUtMTUuOTMsMC4wN2MtMC4wMjQtMC4wMjMtMC4wNDctMC4wNDctMC4wNy0wLjA3ICAgIGMtMi4wOTYtMi4xOC0zLjE5MS01LjEzMy0zLjAyNC04LjE1Mmw3LjA0OC0xNDBjMC4xMTItMi4yNTgtMC43MzctNC40NTgtMi4zMzYtNi4wNTZMMTUyLDE5Ni42ODhWMTI4YzAtNC40MTgtMy41ODItOC04LTggICAgcy04LDMuNTgyLTgsOHY3MmMwLDIuMTIyLDAuODQ0LDQuMTU2LDIuMzQ0LDUuNjU2bDIxLjQ4OCwyMS40OTZsLTYuODI0LDEzNi40NzJjLTAuNzI2LDE0LjkwNywxMC43NywyNy41ODEsMjUuNjc3LDI4LjMwNyAgICBjMTQuOTA3LDAuNzI2LDI3LjU4MS0xMC43NywyOC4zMDctMjUuNjc3YzAuMDQzLTAuODc2LDAuMDQzLTEuNzUzLDAtMi42MjlsLTYuODI0LTEzNi40NzJsMjEuNDg4LTIxLjQ5NiAgICBjMS41LTEuNSwyLjM0NC0zLjUzNCwyLjM0NC01LjY1NnYtNzJDMjI0LDEyMy41ODIsMjIwLjQxOCwxMjAsMjE2LDEyMHoiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0xNjgsMTIwYy00LjQxOCwwLTgsMy41ODItOCw4djY0YzAsNC40MTgsMy41ODIsOCw4LDhzOC0zLjU4Miw4LTh2LTY0QzE3NiwxMjMuNTgyLDE3Mi40MTgsMTIwLDE2OCwxMjB6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTkyLDEyMGMtNC40MTgsMC04LDMuNTgyLTgsOHY2NGMwLDQuNDE4LDMuNTgyLDgsOCw4czgtMy41ODIsOC04di02NEMyMDAsMTIzLjU4MiwxOTYuNDE4LDEyMCwxOTIsMTIweiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTI0MCwwQzEwNy40NTIsMCwwLDEwNy40NTIsMCwyNDBzMTA3LjQ1MiwyNDAsMjQwLDI0MHMyNDAtMTA3LjQ1MiwyNDAtMjQwQzQ3OS44NSwxMDcuNTE0LDM3Mi40ODYsMC4xNSwyNDAsMHogTTI0MCw0NjQgICAgQzExNi4yODgsNDY0LDE2LDM2My43MTIsMTYsMjQwUzExNi4yODgsMTYsMjQwLDE2czIyNCwxMDAuMjg4LDIyNCwyMjRDNDYzLjg1OSwzNjMuNjUzLDM2My42NTMsNDYzLjg1OSwyNDAsNDY0eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTI2NS45NjksMzkwLjE3MmMtMC40MjktNC4zOTctNC4zNDItNy42MTQtOC43NC03LjE4NWMtMC4xMDMsMC4wMS0wLjIwNiwwLjAyMi0wLjMwOSwwLjAzNmwwLjAzMi0wLjAwOCAgICBjLTExLjI2MywxLjMwOC0yMi42NDEsMS4zMDgtMzMuOTA0LDBjLTQuMzktMC41MTUtOC4zNjUsMi42MjYtOC44OCw3LjAxNmMtMC41MTUsNC4zOSwyLjYyNiw4LjM2NSw3LjAxNiw4Ljg4ICAgIGMxMi40OTEsMS40NTksMjUuMTA5LDEuNDU5LDM3LjYsMEMyNjMuMTgxLDM5OC40ODMsMjY2LjM5OCwzOTQuNTcsMjY1Ljk2OSwzOTAuMTcyeiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM2Mi40LDEzNi45MTJjLTIuODM5LTMuMzg1LTcuODg1LTMuODI4LTExLjI3LTAuOTg4Yy0wLjAxMSwwLjAwOS0wLjAyMiwwLjAxOS0wLjAzNCwwLjAyOCAgICBjLTMuMzc3LDIuODQ4LTMuODA3LDcuODk0LTAuOTYsMTEuMjcyYzQ4LjIzNSw1Ny4yNiw0NC41NDUsMTQxLjkyOS04LjQ4OCwxOTQuNzc2Yy0zLjEzLDMuMTE5LTMuMTM5LDguMTg2LTAuMDIsMTEuMzE2ICAgIGMzLjExOSwzLjEzLDguMTg2LDMuMTM5LDExLjMxNiwwLjAyQzQxMS44ODEsMjk0LjYyMyw0MTUuOTkxLDIwMC41NDEsMzYyLjQsMTM2LjkxMnoiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBkPSJNMTg2LjM5MiwxMDUuNzQ0Yy0wLjAwNSwwLTAuMDEtMC4wMDEtMC4wMTUtMC4wMDFjLTAuMDA4LDAtMC4wMTYsMC4wMDEtMC4wMjUsMC4wMDFIMTg2LjM5MnoiIGZpbGw9IiNGRkZGRkYiLz4KCQkJPHBhdGggZD0iTTI3Ny43MzYsODQuNDcyYy0zMS4yNjUtNy40OTMtNjQuMDU1LTUuNDc5LTk0LjE2OCw1Ljc4NGMtNC4xMzYsMS41NTUtNi4yMjcsNi4xNjktNC42NzIsMTAuMzA0ICAgICBjMS4xNzIsMy4xMTcsNC4xNTIsNS4xOCw3LjQ4MSw1LjE4M2MwLjk1Ny0wLjAwNSwxLjkwNS0wLjE4LDIuNzk5LTAuNTE5YzI3LjExOC0xMC4xNDEsNTYuNjQ2LTExLjk1Miw4NC44LTUuMiAgICAgYzQuMjk1LDEuMDM4LDguNjE4LTEuNjAxLDkuNjU2LTUuODk2QzI4NC42Nyw4OS44MzMsMjgyLjAzMSw4NS41MSwyNzcuNzM2LDg0LjQ3MnoiIGZpbGw9IiNGRkZGRkYiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTM3Ljk5MiwzNDEuNkMxMTEuMDIzLDMxNC42NzcsOTUuOTA4LDI3OC4xMDgsOTYsMjQwYy0wLjA3OS0zMC40NDYsOS41NjUtNjAuMTIyLDI3LjUyOC04NC43MDQgICAgYzIuNjU1LTMuNTMyLDEuOTQ0LTguNTQ3LTEuNTg4LTExLjIwMnMtOC41NDctMS45NDQtMTEuMjAyLDEuNTg4Yy0wLjA0NywwLjA2My0wLjA5MywwLjEyNi0wLjEzOCwwLjE5ICAgIGMtNDYuMjUzLDYzLjU4OC0zOS40NDcsMTUxLjM1OSwxNi4wNTYsMjA3LjA1NmMzLjEyOCwzLjEzLDguMjAyLDMuMTMyLDExLjMzMiwwLjAwNEMxNDEuMTE4LDM0OS44MDQsMTQxLjEyLDM0NC43MywxMzcuOTkyLDM0MS42ICAgIHoiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /> Reserver une table <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQ1MS44NDYgNDUxLjg0NyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDUxLjg0NiA0NTEuODQ3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTM0NS40NDEsMjQ4LjI5MkwxNTEuMTU0LDQ0Mi41NzNjLTEyLjM1OSwxMi4zNjUtMzIuMzk3LDEyLjM2NS00NC43NSwwYy0xMi4zNTQtMTIuMzU0LTEyLjM1NC0zMi4zOTEsMC00NC43NDQgICBMMjc4LjMxOCwyMjUuOTJMMTA2LjQwOSw1NC4wMTdjLTEyLjM1NC0xMi4zNTktMTIuMzU0LTMyLjM5NCwwLTQ0Ljc0OGMxMi4zNTQtMTIuMzU5LDMyLjM5MS0xMi4zNTksNDQuNzUsMGwxOTQuMjg3LDE5NC4yODQgICBjNi4xNzcsNi4xOCw5LjI2MiwxNC4yNzEsOS4yNjIsMjIuMzY2QzM1NC43MDgsMjM0LjAxOCwzNTEuNjE3LDI0Mi4xMTUsMzQ1LjQ0MSwyNDguMjkyeiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></button>
-                    </form>
-                    <br>
-                    <span class="line"></span>
 
-				</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
+				<span class="line"></span>
+				<h2 style="	font-family:  Montserrat, arial, sans-serif;">Bienvenue
+				</h2>
+				<p style="	font-family:  Montserrat, arial, sans-serif;">180° c’est un restaurant branché et chaleureux au coeur de
+					sousse.</p>
+				<span class="line"></span>
+				<br>
+				<form method="get" action="reserver.html">
+					<button class="bouton6" style="	font-family:  Montserrat, arial, sans-serif;"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4MCA0ODA7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzM5LjkwNCwxNjEuNzc2bC01LjEzNi0xNi45MDRjLTYuNTI0LTE5LjIwMi0yNy4zNzktMjkuNDc5LTQ2LjU4MS0yMi45NTVjLTEwLjgwMiwzLjY3LTE5LjI4NSwxMi4xNTMtMjIuOTU1LDIyLjk1NSAgICBsLTUuMTM2LDE2LjkwNGMtNC4zMjIsMTQuMjU2LTUuMjI5LDI5LjMyOS0yLjY0OCw0NGMyLjM1NCwxMi4zNTIsMTAuMTk2LDIyLjk2NCwyMS4zMTIsMjguODRMMjczLjAwOCwzNjMuMiAgICBjLTAuNzcsNy4xNzcsMS41NTgsMTQuMzQyLDYuNCwxOS42OTZjMTAuNDEzLDExLjM5LDI4LjA4OSwxMi4xODIsMzkuNDc5LDEuNzY5YzAuNjE2LTAuNTYzLDEuMjA2LTEuMTUzLDEuNzY5LTEuNzY5ICAgIGM0LjczNC01LjIwMiw3LjA1OC0xMi4xNTcsNi40LTE5LjE2TDMyMS4yNzIsMjM0LjZjMTEuMTAxLTUuODc5LDE4LjkzLTE2LjQ4NCwyMS4yOC0yOC44MjQgICAgQzM0NS4xMzMsMTkxLjEwNSwzNDQuMjI2LDE3Ni4wMzIsMzM5LjkwNCwxNjEuNzc2eiBNMzI2Ljc5MiwyMDIuOTkyYy0xLjczMiw4Ljg3NC04LjA1NiwxNi4xNTUtMTYuNiwxOS4xMTIgICAgYy0zLjI0MywxLjIxOS01LjMzMiw0LjM4Ny01LjE3Niw3Ljg0OEwzMTEuMDk2LDM2NWMwLjI4LDIuNjQ5LTAuNTk0LDUuMjktMi40LDcuMjQ4Yy00LjgxNyw0Ljc2OS0xMi41NzUsNC43NjktMTcuMzkyLDAgICAgYy0xLjg5Ni0yLjExNi0yLjc1Ny00Ljk2NC0yLjM1Mi03Ljc3Nmw2LjAzMi0xMzQuNTJjMC4xNTYtMy40NjEtMS45MzMtNi42MjktNS4xNzYtNy44NDhjLTguNTQ0LTIuOTU3LTE0Ljg2OC0xMC4yMzgtMTYuNi0xOS4xMTIgICAgYy0yLjE0LTEyLjE4LTEuMzg2LTI0LjY5MywyLjItMzYuNTI4bDUuMTM2LTE2LjkxMmMzLjk3NC0xMC43NDUsMTUuOTA2LTE2LjIzNCwyNi42NTItMTIuMjZjNS42ODEsMi4xMDEsMTAuMTU5LDYuNTgsMTIuMjYsMTIuMjYgICAgbDUuMTM2LDE2LjkxMkMzMjguMTc0LDE3OC4zLDMyOC45MjgsMTkwLjgxMiwzMjYuNzkyLDIwMi45OTJ6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjE2LDEyMGMtNC40MTgsMC04LDMuNTgyLTgsOHY2OC42ODhsLTIxLjY1NiwyMS42NTZjLTEuNjAyLDEuNTk2LTIuNDU0LDMuNzk3LTIuMzQ0LDYuMDU2bDcsMTQwICAgIGMwLjE2NywzLjAxOS0wLjkyOSw1Ljk3Mi0zLjAyNCw4LjE1MmMtNC4zNzksNC40MTgtMTEuNTExLDQuNDUtMTUuOTMsMC4wN2MtMC4wMjQtMC4wMjMtMC4wNDctMC4wNDctMC4wNy0wLjA3ICAgIGMtMi4wOTYtMi4xOC0zLjE5MS01LjEzMy0zLjAyNC04LjE1Mmw3LjA0OC0xNDBjMC4xMTItMi4yNTgtMC43MzctNC40NTgtMi4zMzYtNi4wNTZMMTUyLDE5Ni42ODhWMTI4YzAtNC40MTgtMy41ODItOC04LTggICAgcy04LDMuNTgyLTgsOHY3MmMwLDIuMTIyLDAuODQ0LDQuMTU2LDIuMzQ0LDUuNjU2bDIxLjQ4OCwyMS40OTZsLTYuODI0LDEzNi40NzJjLTAuNzI2LDE0LjkwNywxMC43NywyNy41ODEsMjUuNjc3LDI4LjMwNyAgICBjMTQuOTA3LDAuNzI2LDI3LjU4MS0xMC43NywyOC4zMDctMjUuNjc3YzAuMDQzLTAuODc2LDAuMDQzLTEuNzUzLDAtMi42MjlsLTYuODI0LTEzNi40NzJsMjEuNDg4LTIxLjQ5NiAgICBjMS41LTEuNSwyLjM0NC0zLjUzNCwyLjM0NC01LjY1NnYtNzJDMjI0LDEyMy41ODIsMjIwLjQxOCwxMjAsMjE2LDEyMHoiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0xNjgsMTIwYy00LjQxOCwwLTgsMy41ODItOCw4djY0YzAsNC40MTgsMy41ODIsOCw4LDhzOC0zLjU4Miw4LTh2LTY0QzE3NiwxMjMuNTgyLDE3Mi40MTgsMTIwLDE2OCwxMjB6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTkyLDEyMGMtNC40MTgsMC04LDMuNTgyLTgsOHY2NGMwLDQuNDE4LDMuNTgyLDgsOCw4czgtMy41ODIsOC04di02NEMyMDAsMTIzLjU4MiwxOTYuNDE4LDEyMCwxOTIsMTIweiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTI0MCwwQzEwNy40NTIsMCwwLDEwNy40NTIsMCwyNDBzMTA3LjQ1MiwyNDAsMjQwLDI0MHMyNDAtMTA3LjQ1MiwyNDAtMjQwQzQ3OS44NSwxMDcuNTE0LDM3Mi40ODYsMC4xNSwyNDAsMHogTTI0MCw0NjQgICAgQzExNi4yODgsNDY0LDE2LDM2My43MTIsMTYsMjQwUzExNi4yODgsMTYsMjQwLDE2czIyNCwxMDAuMjg4LDIyNCwyMjRDNDYzLjg1OSwzNjMuNjUzLDM2My42NTMsNDYzLjg1OSwyNDAsNDY0eiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTI2NS45NjksMzkwLjE3MmMtMC40MjktNC4zOTctNC4zNDItNy42MTQtOC43NC03LjE4NWMtMC4xMDMsMC4wMS0wLjIwNiwwLjAyMi0wLjMwOSwwLjAzNmwwLjAzMi0wLjAwOCAgICBjLTExLjI2MywxLjMwOC0yMi42NDEsMS4zMDgtMzMuOTA0LDBjLTQuMzktMC41MTUtOC4zNjUsMi42MjYtOC44OCw3LjAxNmMtMC41MTUsNC4zOSwyLjYyNiw4LjM2NSw3LjAxNiw4Ljg4ICAgIGMxMi40OTEsMS40NTksMjUuMTA5LDEuNDU5LDM3LjYsMEMyNjMuMTgxLDM5OC40ODMsMjY2LjM5OCwzOTQuNTcsMjY1Ljk2OSwzOTAuMTcyeiIgZmlsbD0iI0ZGRkZGRiIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM2Mi40LDEzNi45MTJjLTIuODM5LTMuMzg1LTcuODg1LTMuODI4LTExLjI3LTAuOTg4Yy0wLjAxMSwwLjAwOS0wLjAyMiwwLjAxOS0wLjAzNCwwLjAyOCAgICBjLTMuMzc3LDIuODQ4LTMuODA3LDcuODk0LTAuOTYsMTEuMjcyYzQ4LjIzNSw1Ny4yNiw0NC41NDUsMTQxLjkyOS04LjQ4OCwxOTQuNzc2Yy0zLjEzLDMuMTE5LTMuMTM5LDguMTg2LTAuMDIsMTEuMzE2ICAgIGMzLjExOSwzLjEzLDguMTg2LDMuMTM5LDExLjMxNiwwLjAyQzQxMS44ODEsMjk0LjYyMyw0MTUuOTkxLDIwMC41NDEsMzYyLjQsMTM2LjkxMnoiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBkPSJNMTg2LjM5MiwxMDUuNzQ0Yy0wLjAwNSwwLTAuMDEtMC4wMDEtMC4wMTUtMC4wMDFjLTAuMDA4LDAtMC4wMTYsMC4wMDEtMC4wMjUsMC4wMDFIMTg2LjM5MnoiIGZpbGw9IiNGRkZGRkYiLz4KCQkJPHBhdGggZD0iTTI3Ny43MzYsODQuNDcyYy0zMS4yNjUtNy40OTMtNjQuMDU1LTUuNDc5LTk0LjE2OCw1Ljc4NGMtNC4xMzYsMS41NTUtNi4yMjcsNi4xNjktNC42NzIsMTAuMzA0ICAgICBjMS4xNzIsMy4xMTcsNC4xNTIsNS4xOCw3LjQ4MSw1LjE4M2MwLjk1Ny0wLjAwNSwxLjkwNS0wLjE4LDIuNzk5LTAuNTE5YzI3LjExOC0xMC4xNDEsNTYuNjQ2LTExLjk1Miw4NC44LTUuMiAgICAgYzQuMjk1LDEuMDM4LDguNjE4LTEuNjAxLDkuNjU2LTUuODk2QzI4NC42Nyw4OS44MzMsMjgyLjAzMSw4NS41MSwyNzcuNzM2LDg0LjQ3MnoiIGZpbGw9IiNGRkZGRkYiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTM3Ljk5MiwzNDEuNkMxMTEuMDIzLDMxNC42NzcsOTUuOTA4LDI3OC4xMDgsOTYsMjQwYy0wLjA3OS0zMC40NDYsOS41NjUtNjAuMTIyLDI3LjUyOC04NC43MDQgICAgYzIuNjU1LTMuNTMyLDEuOTQ0LTguNTQ3LTEuNTg4LTExLjIwMnMtOC41NDctMS45NDQtMTEuMjAyLDEuNTg4Yy0wLjA0NywwLjA2My0wLjA5MywwLjEyNi0wLjEzOCwwLjE5ICAgIGMtNDYuMjUzLDYzLjU4OC0zOS40NDcsMTUxLjM1OSwxNi4wNTYsMjA3LjA1NmMzLjEyOCwzLjEzLDguMjAyLDMuMTMyLDExLjMzMiwwLjAwNEMxNDEuMTE4LDM0OS44MDQsMTQxLjEyLDM0NC43MywxMzcuOTkyLDM0MS42ICAgIHoiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+						Reserver une table <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQ1MS44NDYgNDUxLjg0NyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDUxLjg0NiA0NTEuODQ3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTM0NS40NDEsMjQ4LjI5MkwxNTEuMTU0LDQ0Mi41NzNjLTEyLjM1OSwxMi4zNjUtMzIuMzk3LDEyLjM2NS00NC43NSwwYy0xMi4zNTQtMTIuMzU0LTEyLjM1NC0zMi4zOTEsMC00NC43NDQgICBMMjc4LjMxOCwyMjUuOTJMMTA2LjQwOSw1NC4wMTdjLTEyLjM1NC0xMi4zNTktMTIuMzU0LTMyLjM5NCwwLTQ0Ljc0OGMxMi4zNTQtMTIuMzU5LDMyLjM5MS0xMi4zNTksNDQuNzUsMGwxOTQuMjg3LDE5NC4yODQgICBjNi4xNzcsNi4xOCw5LjI2MiwxNC4yNzEsOS4yNjIsMjIuMzY2QzM1NC43MDgsMjM0LjAxOCwzNTEuNjE3LDI0Mi4xMTUsMzQ1LjQ0MSwyNDguMjkyeiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></button>
+				</form>
+				<br>
+				<span class="line"></span>
+
 			</div>
+		</div>
 
-			<div class="section services-section">
-					<div class="container">
-					   
-					  <div class="row">
-						<div class="col-md-6 col-lg-3" data-aos="fade-up">
-						  <div class="media feature-icon d-block text-center">
+		<div class="section services-section">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-6 col-lg-3" data-aos="fade-up">
+						<div class="media feature-icon d-block text-center">
 							<div class="icon">
-							  <span class="flaticon-soup"></span>
+								<span class="flaticon-soup"></span>
 							</div>
 							<div class="media-body">
-							  <h3 style="font-size:12px">CUISINE <br>DE QUALITÉ</h3>
-								</div>
-						  </div>
-						</div>
-						<div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-						  <div class="media feature-icon d-block text-center">
-							<div class="icon">
-							  <span class="flaticon-vegetables"></span>
+								<h3 style="font-size:12px">CUISINE <br>DE QUALITÉ</h3>
 							</div>
-							<div class="media-body">
-							  <h3 style="font-size:12px">Nourriture fraîche</h3>
-										</div>
-						  </div>
 						</div>
-						<div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-						  <div class="media feature-icon d-block text-center">
-							<div class="icon">
-							  <span class="flaticon-pancake"></span>
-							</div>
-							<div class="media-body">
-							  <h3 style="font-size:12px">PERSONNEL CONVIVIAL</h3>
-									</div>
-						  </div>
-						</div>
-						<div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
-						  <div class="media feature-icon d-block text-center">
-							<div class="icon">
-							  <span class="flaticon-tray"></span>
-							</div>
-							<div class="media-body">
-							  <h3 style="font-size:12px">Réservation facile</h3>
-										</div>
-						  </div>
-						</div>
-					  </div>
 					</div>
-				  </div> <!-- .section -->
-
-			<!-- Folio pt.1 -->
-			<div class="row">
-				<div class="col-xs-12 padded-top">
-					<ul class="folio-list">
-						<li><a class ="lightbox" href="images/portfolio/project1.jpg" title="Caption goes here."><img src="images/portfolio/project1.jpg" alt="thumbnail"></a></li>
-						<li><a class ="lightbox" href="images/portfolio/project2.jpg" title="Caption goes here."><img src="images/portfolio/project2.jpg" alt="thumbnail"></a></li>
-						<li><a class ="lightbox" href="images/portfolio/project3.jpg" title="Caption goes here."><img src="images/portfolio/project3.jpg" alt="thumbnail"></a></li>
-					</ul>
+					<div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+						<div class="media feature-icon d-block text-center">
+							<div class="icon">
+								<span class="flaticon-vegetables"></span>
+							</div>
+							<div class="media-body">
+								<h3 style="font-size:12px">Nourriture fraîche</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+						<div class="media feature-icon d-block text-center">
+							<div class="icon">
+								<span class="flaticon-pancake"></span>
+							</div>
+							<div class="media-body">
+								<h3 style="font-size:12px">PERSONNEL CONVIVIAL</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+						<div class="media feature-icon d-block text-center">
+							<div class="icon">
+								<span class="flaticon-tray"></span>
+							</div>
+							<div class="media-body">
+								<h3 style="font-size:12px">Réservation facile</h3>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+		</div> <!-- .section -->
+
+		<!-- Folio pt.1 -->
+		<div class="row">
+			<div class="col-xs-12 padded-top">
+				<ul class="folio-list">
+					<li><a class="lightbox" href="images/portfolio/project1.jpg" title="Caption goes here."><img src="images/portfolio/project1.jpg"
+							 alt="thumbnail"></a></li>
+					<li><a class="lightbox" href="images/portfolio/project2.jpg" title="Caption goes here."><img src="images/portfolio/project2.jpg"
+							 alt="thumbnail"></a></li>
+					<li><a class="lightbox" href="images/portfolio/project3.jpg" title="Caption goes here."><img src="images/portfolio/project3.jpg"
+							 alt="thumbnail"></a></li>
+				</ul>
+			</div>
+		</div>
 		</div>
 	</section>
 
@@ -177,9 +204,12 @@
 			<div class="row">
 				<div class="col-xs-12 padded-bottom">
 					<ul class="folio-list dropshadow">
-						<li><a class ="lightbox" href="images/portfolio/project4.jpg" title="Caption goes here."><img src="images/portfolio/project4.jpg" alt="thumbnail"></a></li>
-						<li><a class ="lightbox" href="images/portfolio/project5.jpg" title="Caption goes here."><img src="images/portfolio/project5.jpg" alt="thumbnail"></a></li>
-						<li><a class ="lightbox" href="images/portfolio/project6.jpg" title="Caption goes here."><img src="images/portfolio/project6.jpg" alt="thumbnail"></a></li>
+						<li><a class="lightbox" href="images/portfolio/project4.jpg" title="Caption goes here."><img src="images/portfolio/project4.jpg"
+								 alt="thumbnail"></a></li>
+						<li><a class="lightbox" href="images/portfolio/project5.jpg" title="Caption goes here."><img src="images/portfolio/project5.jpg"
+								 alt="thumbnail"></a></li>
+						<li><a class="lightbox" href="images/portfolio/project6.jpg" title="Caption goes here."><img src="images/portfolio/project6.jpg"
+								 alt="thumbnail"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -193,13 +223,13 @@
 
 					</div>
 					<div class="col-md-offset-2 col-md-4">
-							<h3>Mohamed Bejaoui</h3>
-							<h3>3 eme Genie informatique</h3>
-							<h3>2018/2019</h3>
-						</div>
-						
+						<h3>Mohamed Bejaoui</h3>
+						<h3>3 eme Genie informatique</h3>
+						<h3>2018/2019</h3>
+					</div>
+
 				</div>
-				
+
 			</div>
 		</div>
 		<span class="large-accent">“</span>
@@ -207,7 +237,7 @@
 
 	<section class="container padded center">
 
-		
+
 
 		<!-- Footer -->
 		<div class="row padded">
@@ -240,4 +270,5 @@
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>

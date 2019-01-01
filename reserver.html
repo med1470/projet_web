@@ -25,8 +25,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
 
-
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -36,140 +34,145 @@
     <link rel="stylesheet" type="text/css" href="css/loader.css" />
     <link rel="stylesheet" type="text/css" href="css/framework.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    
+    <link rel="stylesheet" type="text/css" href="css/reserver.css" />
     <link rel="stylesheet" href="css/datePicker.css" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <!-- Javascript -->
+
+
+
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="js/util.js"></script>
-    <!-- Colors -->
-    <link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen">
-        <!-- Javascript -->
+ 
+
+
     <script src="js/modernizr.js"></script>
     <script src="js/jquery.js"></script>
-    <script src="js/datePicker.js"></script>
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen">
+
+
 </head>
 
 <body class="full padded-bottom center" style="background-image: url(images/light-image.jpg);">
-
-
-
-  <header style="height:300px;	background-image: url('images/back_reserver.jpg');">
-             <div >
-         <br><br>
-                <div class="col-md-1">
-                        <a style="float:left" class="retour" href="index.html"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQ5NS4zOTggNDk1LjM5OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDk1LjM5OCA0OTUuMzk4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGc+CgkJPGc+CgkJCTxwYXRoIGQ9Ik00ODcuMDgzLDIyNS41MTRsLTc1LjA4LTc1LjA4VjYzLjcwNGMwLTE1LjY4Mi0xMi43MDgtMjguMzkxLTI4LjQxMy0yOC4zOTFjLTE1LjY2OSwwLTI4LjM3NywxMi43MDktMjguMzc3LDI4LjM5MSAgICAgdjI5Ljk0MUwyOTkuMzEsMzcuNzRjLTI3LjYzOS0yNy42MjQtNzUuNjk0LTI3LjU3NS0xMDMuMjcsMC4wNUw4LjMxMiwyMjUuNTE0Yy0xMS4wODIsMTEuMTA0LTExLjA4MiwyOS4wNzEsMCw0MC4xNTggICAgIGMxMS4wODcsMTEuMTAxLDI5LjA4OSwxMS4xMDEsNDAuMTcyLDBsMTg3LjcxLTE4Ny43MjljNi4xMTUtNi4wODMsMTYuODkzLTYuMDgzLDIyLjk3Ni0wLjAxOGwxODcuNzQyLDE4Ny43NDcgICAgIGM1LjU2Nyw1LjU1MSwxMi44MjUsOC4zMTIsMjAuMDgxLDguMzEyYzcuMjcxLDAsMTQuNTQxLTIuNzY0LDIwLjA5MS04LjMxMkM0OTguMTcsMjU0LjU4Niw0OTguMTcsMjM2LjYxOSw0ODcuMDgzLDIyNS41MTR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTxwYXRoIGQ9Ik0yNTcuNTYxLDEzMS44MzZjLTUuNDU0LTUuNDUxLTE0LjI4NS01LjQ1MS0xOS43MjMsMEw3Mi43MTIsMjk2LjkxM2MtMi42MDcsMi42MDYtNC4wODUsNi4xNjQtNC4wODUsOS44Nzd2MTIwLjQwMSAgICAgYzAsMjguMjUzLDIyLjkwOCw1MS4xNiw1MS4xNiw1MS4xNmg4MS43NTR2LTEyNi42MWg5Mi4yOTl2MTI2LjYxaDgxLjc1NWMyOC4yNTEsMCw1MS4xNTktMjIuOTA3LDUxLjE1OS01MS4xNTlWMzA2Ljc5ICAgICBjMC0zLjcxMy0xLjQ2NS03LjI3MS00LjA4NS05Ljg3N0wyNTcuNTYxLDEzMS44MzZ6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /> </a>
-               
-                    </div>
-                    <div class="col-md-3">
-      <img id='last ' class="hidden-xs hidden-sm" style="width:200px" src="images/logo.png">
-    </div>
-           <div class="col-md-8">
-               <div class="line5" id='last'>Reserver </div>  
-               <div  class="line5"   id='last'>Votre table </div>  
-             
+    <header style="height:300px;	background-image: url('images/back_reserver.jpg');">
+        <div>
+            <br><br>
+            <div class="col-md-1">
+                <a style="float:left" class="retour" href="index.html"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQ5NS4zOTggNDk1LjM5OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDk1LjM5OCA0OTUuMzk4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGc+CgkJPGc+CgkJCTxwYXRoIGQ9Ik00ODcuMDgzLDIyNS41MTRsLTc1LjA4LTc1LjA4VjYzLjcwNGMwLTE1LjY4Mi0xMi43MDgtMjguMzkxLTI4LjQxMy0yOC4zOTFjLTE1LjY2OSwwLTI4LjM3NywxMi43MDktMjguMzc3LDI4LjM5MSAgICAgdjI5Ljk0MUwyOTkuMzEsMzcuNzRjLTI3LjYzOS0yNy42MjQtNzUuNjk0LTI3LjU3NS0xMDMuMjcsMC4wNUw4LjMxMiwyMjUuNTE0Yy0xMS4wODIsMTEuMTA0LTExLjA4MiwyOS4wNzEsMCw0MC4xNTggICAgIGMxMS4wODcsMTEuMTAxLDI5LjA4OSwxMS4xMDEsNDAuMTcyLDBsMTg3LjcxLTE4Ny43MjljNi4xMTUtNi4wODMsMTYuODkzLTYuMDgzLDIyLjk3Ni0wLjAxOGwxODcuNzQyLDE4Ny43NDcgICAgIGM1LjU2Nyw1LjU1MSwxMi44MjUsOC4zMTIsMjAuMDgxLDguMzEyYzcuMjcxLDAsMTQuNTQxLTIuNzY0LDIwLjA5MS04LjMxMkM0OTguMTcsMjU0LjU4Niw0OTguMTcsMjM2LjYxOSw0ODcuMDgzLDIyNS41MTR6IiBmaWxsPSIjRkZGRkZGIi8+CgkJCTxwYXRoIGQ9Ik0yNTcuNTYxLDEzMS44MzZjLTUuNDU0LTUuNDUxLTE0LjI4NS01LjQ1MS0xOS43MjMsMEw3Mi43MTIsMjk2LjkxM2MtMi42MDcsMi42MDYtNC4wODUsNi4xNjQtNC4wODUsOS44Nzd2MTIwLjQwMSAgICAgYzAsMjguMjUzLDIyLjkwOCw1MS4xNiw1MS4xNiw1MS4xNmg4MS43NTR2LTEyNi42MWg5Mi4yOTl2MTI2LjYxaDgxLjc1NWMyOC4yNTEsMCw1MS4xNTktMjIuOTA3LDUxLjE1OS01MS4xNTlWMzA2Ljc5ICAgICBjMC0zLjcxMy0xLjQ2NS03LjI3MS00LjA4NS05Ljg3N0wyNTcuNTYxLDEzMS44MzZ6IiBmaWxsPSIjRkZGRkZGIi8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+                </a>
+            </div>
+            <div class="col-md-3">
+                <img id='last ' class="hidden-xs hidden-sm" style="width:200px" src="images/logo.png">
+            </div>
+            <div class="col-md-8">
+                <div class="line5" id='last'>Reserver </div>
+                <div class="line5" id='last'>Votre table </div>
             </div>
         </div>
         </section>
-
-
-
-    <header>
-        <div id="test">
-        
-            
+        <header>
+            <div id="test">
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                <form id="contact" name="contact" method="post" novalidate="novalidate">
-                    <fieldset>
-                        <label for="name"><h4>Table pour combien de personnes ? </h4></label>
-                        <select  class="form-control" name="nbp" id="nbp">
-                            <option value="-1" style="	font-family:  Montserrat, arial, sans-serif;">Veuillez choisir</option>
-                            <option value="1" style="	font-family:  Montserrat, arial, sans-serif;">Une place</option>
-                            <option value="2" style="	font-family:  Montserrat, arial, sans-serif;">Deux places</option>
-                            <option value="4" style="	font-family:  Montserrat, arial, sans-serif;">4 places</option>
-                            <option value="6" style="	font-family:  Montserrat, arial, sans-serif;">6 places</option>
-                        </select>
-                        <br />
-                        <div id="chaises"></div>
-                        <br />
-                    </fieldset>
-                </form>
+                    <form id="contact" name="contact" method="post" novalidate="novalidate">
+                        <fieldset>
+                            <label for="name">
+                                <h4>Table pour combien de personnes ? </h4>
+                            </label>
+                            <select class="form-control" name="nbp" id="nbp">
+                                <option value="-1" class="placefont">Veuillez choisir</option>
+                                <option value="1" class="placefont">Une place</option>
+                                <option value="2" class="placefont">Deux places</option>
+                                <option value="4" class="placefont">4 places</option>
+                                <option value="6" class="placefont">6 places</option>
+                            </select>
+                            <br />
+                            <div id="chaises"></div>
+                            <br />
+                        </fieldset>
+                    </form>
                 </div>
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-1">
-                <fieldset>   <span class="line"></span><br>
-                    <h4>A quelle date vous allez venir ?</h4> 
-                    <input style="	font-family:  Montserrat, arial, sans-serif;" name="date" type="text" id="date" value="" placeholder="Choisir la date de reservation" />
-                </fieldset>  <span class="line"></span><br>
-                <h4>Vos coordon&eacute;es</h4>
-               
-                <form class="control-group" id="contact" name="contact" method="post" novalidate="novalidate">
-                    <fieldset>
-                        <label style="	display: inline;" class="lab">Madamme |
-                            <input type="radio" name="civilite" value="mme">
-                            <span class="checkmark"></span>
-                        </label>
-                        <label style="	display: inline;" class="lab">Mademoiselle |
-                            <input type="radio" name="civilite" value="mlle">
-                            <span class="checkmark"></span>
-                        </label>
-                        <label style="	display: inline;" class="lab">Monsieur
-                            <input type="radio" name="civilite" value="m">
-                            <span class="checkmark"></span>
-                        </label>
-                        <br />
-                        <br /> <br />
-                        <br />
-                        <div class="col-md-6">
-                        <label for="name"><h5> Nom et pr&eacute;nom :</h5> <span id="div_nom" style="color:red"></span></label>
-                        <input style="	font-family:  Montserrat, arial, sans-serif;" name="nom" type="text" id="nom" size="60" placeholder="Tapez votre nom et prenom" />
-                    </div>
-                    <div class="col-md-6">
-                        <label for="tel"><h5>N&deg; de t&eacute;l&eacute;phone :</h5> <span style="color:red" id="div_tel"></span>
-                        </label>
-                        <input  style="	font-family:  Montserrat, arial, sans-serif;" type="text" name="tel" id="tel" placeholder="+216 XX XXX XXX" />
-                    </div>
-                        <label for="message"><h5>Liste des accompagnateurs (une personne par ligne):</h5></label>
-                        <textarea style="	font-family:  Montserrat, arial, sans-serif;" class="textarea" name="message" id="message" placeholder="Tapez la liste des accompagnateurs "></textarea>
-                    </div>
-                <div class="col-md-4">
-                        <span class="line"></span><br>
-                        <h4>Que voulez-vous manger ?</h4>
-                        <span class="line"></span>
-                        <br>           <br>
-                        <form id="contact" name="contact" method="post" novalidate="novalidate">
-                            <fieldset>
+                    <fieldset> <span class="line"></span><br>
+                        <h4>A quelle date vous allez venir ?</h4>
+                        <input class="placefont" name="date" type="text" id="date" value="" placeholder="Choisir la date de reservation" />
+                    </fieldset> <span class="line"></span><br>
+                    <h4>Vos coordon&eacute;es</h4>
 
-                         <div class="form-group">
-                             <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/salade.png"="..."
-                                                class="img-thumbnail img-check">
-                                            <input type="checkbox" name="cmd" value="salade" data-prix="5" class="hidden"
-                                                autocomplete="off"><br>salade</label></div>
-                            <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/soupe.png"="..."
-                                                class="img-thumbnail img-check" >
-                                            <input type="checkbox" name="cmd" value="Soupe" data-prix="2.5" class="hidden"
-                                                autocomplete="off"><br>Soupe</label></div>
-                                             
-                            <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/couscous.png"="..."
-                                                class="img-thumbnail img-check">
-                                            <input type="checkbox" name="cmd" value="Couscous " data-prix="15.5" class="hidden"
-                                                autocomplete="off"><br>Couscous</label></div>
-
-                            <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/riz.png"="..."
-                                                class="img-thumbnail img-check">
-                                            <input type="checkbox" name="cmd" value="Riz" data-prix="12" class="hidden"
-                                                autocomplete="off"><br>Riz</label></div>
-                            <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/fruit.png"="..."
-                                                class="img-thumbnail img-check">
-                                            <input type="checkbox" name="cmd" value="Fruits" data-prix="7" class="hidden"
-                                                autocomplete="off"><br>Fruits</label></div>
-                            <div class="col-md-6  col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/gateau.png"="..."
-                                                class="img-thumbnail img-check">
-                                            <input type="checkbox" name="cmd" value="Gateaux" data-prix="6.4" class="hidden"
-                                                autocomplete="off"><br>Gateaux</label></div>
-                        </div>
-                   
-                    </div>
+                    <form class="control-group" id="contact" name="contact" method="post" novalidate="novalidate">
+                        <fieldset>
+                            <label style="	display: inline;" class="lab">Madamme |
+                                <input type="radio" name="civilite" value="mme">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label style="	display: inline;" class="lab">Mademoiselle |
+                                <input type="radio" name="civilite" value="mlle">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label style="	display: inline;" class="lab">Monsieur
+                                <input type="radio" name="civilite" value="m">
+                                <span class="checkmark"></span>
+                            </label>
+                            <br />
+                            <br /> <br />
+                            <br />
+                            <div class="col-md-6">
+                                <label for="name">
+                                    <h5> Nom et pr&eacute;nom :</h5> <span id="div_nom" style="color:red"></span>
+                                </label>
+                                <input class="placefont" name="nom" type="text" id="nom" size="60" placeholder="Tapez votre nom et prenom" />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="tel">
+                                    <h5>N&deg; de t&eacute;l&eacute;phone :</h5> <span style="color:red" id="div_tel"></span>
+                                </label>
+                                <input class="placefont" type="text" name="tel" id="tel" placeholder="+216 XX XXX XXX" />
+                            </div>
+                            <label for="message">
+                                <h5>Liste des accompagnateurs (une personne par ligne):</h5>
+                            </label>
+                            <textarea class="textarea placefont" name="message" id="message" placeholder="Tapez la liste des accompagnateurs "></textarea>
                 </div>
+                <div class="col-md-4">
+                    <span class="line"></span><br>
+                    <h4>Que voulez-vous manger ?</h4>
+                    <span class="line"></span>
+                    <br> <br>
+                    <form id="contact" name="contact" method="post" novalidate="novalidate">
+                        <fieldset>
+
+                            <div class="form-group">
+                                <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/salade.png"="..."
+                                            class="img-thumbnail img-check">
+                                        <input type="checkbox" name="cmd" value="Salade" data-prix="5" class="hidden"
+                                            autocomplete="off"><br>salade</label></div>
+                                <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/soupe.png"="..."
+                                            class="img-thumbnail img-check">
+                                        <input type="checkbox" name="cmd" value="Soupe" data-prix="2.5" class="hidden"
+                                            autocomplete="off"><br>Soupe</label></div>
+
+                                <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/couscous.png"="..."
+                                            class="img-thumbnail img-check">
+                                        <input type="checkbox" name="cmd" value="Couscous " data-prix="15.5" class="hidden"
+                                            autocomplete="off"><br>Couscous</label></div>
+
+                                <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/riz.png"="..."
+                                            class="img-thumbnail img-check">
+                                        <input id="aa"type="checkbox" name="cmd" value="Riz" data-prix="12" class="hidden"
+                                            autocomplete="off"><br>Riz</label></div>
+                                <div class="col-md-6 col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/fruit.png"="..."
+                                            class="img-thumbnail img-check">
+                                        <input type="checkbox" name="cmd" value="Fruits" data-prix="7" class="hidden"
+                                            autocomplete="off"><br>Fruits</label></div>
+                                <div class="col-md-6  col-sm-4  col-xs-6"><label class="btn btn-primary aaa"><img src="images/reserver/gateau.png"="..."
+                                            class="img-thumbnail img-check">
+                                        <input type="checkbox" name="cmd" value="Gateaux" data-prix="6.4" class="hidden"
+                                            autocomplete="off"><br>Gateaux</label></div>
+                            </div>
+
+                </div>
+            </div>
             </fieldset>
             </form>
             <input id="b1" type="button" name="b1" value="valider ma commande">
@@ -177,72 +180,69 @@
             </form>
 
             <div id="div_resume">
-            <div class="container">
-                <div class="bp-card" data-clickthrough="link">
-                    <div class="bp-card_label">
-                        <div class="bd-border_solid"></div>
-                        <div class="bd-border_dotted"></div>
-                    </div>
-                    <div class="bp-card_content">
-                            
-                            <p style=" text-align: left ;font-size:15px; font-family:  Montserrat, arial, sans-serif;" id ="nomtic"> </p>
-                        <h3 style=" text-align: left; font-size:12px; font-family:  Montserrat, arial, sans-serif;" id="aaa"></h3>
-                        <img  style="width:70px;height: 70px; float: right; top: 1000px;" src="  images/logo.png" > 
-                        <ul>
-                                <p style=" font-family:  Montserrat, arial, sans-serif; text-align: left;  color: gray" id="commande"></p>
-                                <p style=" font-family:  Montserrat, arial, sans-serif; text-align: left; " id ="plat"></p>
-                                
-                        </ul> 
-                       
-                        <a href="" id="price" class="price">
-                        </a>
-                        
+                <div class="container">
+                    <div class="bp-card" data-clickthrough="link">
+                        <div class="bp-card_label">
+                            <div class="bd-border_solid"></div>
+                            <div class="bd-border_dotted"></div>
+                        </div>
+                        <div class="bp-card_content">
+
+                            <p class="placefont" style="  text-align: left;  color: rgb(22, 22, 22)" id="nomtic"> </p>
+                            <p class="placefont" style="  text-align: left;  color: rgb(22, 22, 22)" id="Acommande"></p>
+                            <img style="width:70px;height: 70px; float: right; top: 1000px;" src="  images/logo.png">
+                            <ul>
+                                <strong>
+                                    <p class="placefont" style="text-align: left;  color: rgb(211, 0, 0)" id="commande"></p>
+                                </strong>
+                                <p class="placefont" style="  text-align: left; " id="plat"></p>
+
+                            </ul>
+
+                            <a href="" ref="" id="price" class="price">
+                            </a>
+
+                        </div>
                     </div>
                 </div>
+
             </div>
-    
-        </div>
-        </div>
-    </section>
-
-        <!-- Footer -->
-        <div class="row padded">
-            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                <span class="line no-accent"></span>
-
-                <ul class="social-list padded">
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Behance</a></li>
-                    <li><a href="#">Dribbble</a></li>
-                </ul>
-                <p class="copyright">© 2018 Mini projet Developement web - EPI<br>Mohamed Bejaoui</p>
             </div>
-        </div>
-    </section>
+            </section>
 
-    <!-- Begin Pageloader -->
-    <div id="pageloader">
-        <!-- Content -->
-        <div class="pageloader-content">
-            <h4>Loading...</h4>
-            <span class="progress"></span>
-        </div><!-- END Content -->
-    </div><!-- END Pageloader -->
+            <!-- Footer -->
+            <div class="row padded">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <span class="line no-accent"></span>
 
-    <!-- Javascript -->
-    <script src="js/loader.js"></script>
-    <script src="js/parallax.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        $(document).ready(function (e) {
-            $(".img-check").click(function () {
-            $(this).toggleClass("check");
+                    <ul class="social-list padded">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Behance</a></li>
+                        <li><a href="#">Dribbble</a></li>
+                    </ul>
+                    <p class="copyright">© 2018 Mini projet Developement web - EPI<br>Mohamed Bejaoui</p>
+                </div>
+            </div>
+            </section>
 
-            });
-        });
-    </script>
+
+                <!-- Javascript -->
+                <script src="js/util.js"></script>
+                <script src="js/loader.js"></script>
+                <script src="js/parallax.js"></script>
+                <script src="js/plugins.js"></script>
+                <script src="js/main.js"></script>
+
+                <script src="js/datePicker.js"></script>
+            <script>
+                $(document).ready(function (e) {
+                    $(".img-check").click(function () {
+                        $(this).toggleClass("check");
+
+                    });
+                });
+            </script>
 </body>
 <style>
     .check {
@@ -253,4 +253,4 @@
     }
 </style>
 
-</html> -->
+</html>
